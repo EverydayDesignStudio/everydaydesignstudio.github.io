@@ -1,2 +1,3 @@
-# everydaydesignstudio.github.io
-The homepage of www.everydaydesignstudio.github.io
+# [`everydaydesignstudio.github.io`](www.everydaydesignstudio.github.io)
+
+The homepage of Everyday Design Studio's GitHub Pages website.
