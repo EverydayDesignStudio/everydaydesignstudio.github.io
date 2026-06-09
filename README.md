@@ -8,3 +8,5 @@
 ###### Navigation
 * [Everyday Design Studio homepage](http://eds.siat.sfu.ca)
 * [Guides and Tutorials](https://everydaydesignstudio.github.io/guides/)
+
+(testing commit access)
