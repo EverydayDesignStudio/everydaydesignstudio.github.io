@@ -1,0 +1,251 @@
+@font-face {
+    font-family: 'AlteHaasGrotesk';
+    src: url('fonts/AlteHaasGrotesk_Bold.woff2') format('woff2'),
+        url('fonts/AlteHaasGrotesk_Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AlteHaasGrotesk';
+    src: url('fonts/AlteHaasGrotesk.woff2') format('woff2'),
+        url('fonts/AlteHaasGrotesk.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grot Disp';
+    src: url('fonts/HaasGrotDisp-45Light.woff2') format('woff2'),
+        url('fonts/HaasGrotDisp-45Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grot Disp';
+    src: url('fonts/HaasGrotDisp-55Roman.woff2') format('woff2'),
+        url('fonts/HaasGrotDisp-55Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grot Disp';
+    src: url('fonts/HaasGrotDisp-65Medium.woff2') format('woff2'),
+        url('fonts/HaasGrotDisp-65Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grot Disp';
+    src: url('fonts/HaasGrotDisp-75Bold.woff2') format('woff2'),
+        url('fonts/HaasGrotDisp-75Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Neue Haas Grot Disp', sans-serif;
+}
+
+img{
+    width:  100%;
+    overflow: hidden;
+    object-fit: contain; /* contain the image */
+    object-position: center; /* Center the image within the element */
+}
+
+a{
+    color: rgb(22, 28, 120);
+}
+
+header{
+    position: relative;
+}
+
+img.title-bg{
+    opacity: 0.8;
+}
+
+div#grad {
+    width: 100%;
+    background-image: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0)),
+        url("assets/AdobeStock_1692626674.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+/* body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+
+.centered-w-bg {
+  position: absolute;
+  transform: translate(-50%, -40%);
+  top: 40%;
+  left: 50%;
+  color: white;
+}
+
+.centered-w-bg h1{
+    text-align: center;
+    margin-left: auto;
+    display: block;
+}
+
+.centered-w-bg h2{
+    text-align: center;
+    margin-left: auto;
+    display: block;
+}
+
+.centered-w-bg .main-title{
+    font-size: 36pt;
+    text-transform: uppercase;
+    /* font-weight: lighter; */
+    letter-spacing: 2pt;
+}
+
+.centered-w-bg .title-lab{
+    font-size: 14pt;
+    text-transform: uppercase;
+    /* font-weight: lighter; */
+    margin-bottom: 20px;
+    letter-spacing: 2pt;
+}
+
+.section{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: lighter;
+}
+
+@media screen and (max-width: 767px) {
+    .section{
+        width: 95%;
+    }
+}
+
+.section-wrapper{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section h3{
+    font-size: 16pt;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-block-start: 2.2rem;
+    margin-block-end: 0rem;
+}
+
+.section h2{
+    font-size: 26pt;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.section p{
+    font-size: 12pt;
+    line-height: 15pt;
+    margin-block-start: 0.8rem;
+    font-weight: normal;
+}
+
+p.upper{
+    text-transform: uppercase;
+}
+
+.dark-gray{
+    color: rgb(75, 75, 75);
+}
+
+.section-wrapper.dark{
+    background-color: rgb(75, 75, 75);
+}
+
+.section-wrapper.dark h2{
+    color:rgb(255, 255, 255);
+}
+
+.section-wrapper.dark h3{
+    color:rgb(150, 150, 150);
+}
+
+.section-wrapper.dark p{
+    color:rgb(255, 255, 255);
+}
+
+.section-wrapper.dark h4{
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+
+div.col3{
+    display: flex;
+    width: 100%;
+}
+
+div.col3 .col{
+    flex: 1 0 0;
+    padding: 10px;
+}
+
+div.col3 .col img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    object-fit: cover; /* contain the image */
+    object-position: center; /* Center the image within the element */
+}
+
+ul{
+    list-style-type: none;
+}
+
+li b{
+    font-weight: bold;
+}
+
+h3.small{
+    font-size: 13pt;
+    line-height: 16.2pt;
+    margin-block-start: 0.1rem;
+}
+
+p.small-text{
+    font-size: 8pt;
+    line-height: 9.6pt;
+}
+
+div.circle-block{
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    border-width: 2px;
+    border-color: rgb(200, 200, 200);
+    border-radius: 50%;
+    border-style: solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+img.logo{
+    max-width: 65%;
+}
