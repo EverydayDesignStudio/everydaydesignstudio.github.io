@@ -90,11 +90,12 @@ div#grad {
 } */
 
 .centered-w-bg {
-  position: absolute;
-  transform: translate(-50%, -40%);
-  top: 40%;
-  left: 50%;
-  color: white;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%); /* Only translate vertically now */
+    width: 100%; /* Take full horizontal space */
+    text-align: center; /* Center the text inside */
+    color: white;
 }
 
 .centered-w-bg h1{
@@ -110,10 +111,10 @@ div#grad {
 }
 
 .centered-w-bg .main-title{
-    font-size: 36pt;
+    font-size: 40pt;
     text-transform: uppercase;
     /* font-weight: lighter; */
-    letter-spacing: 2pt;
+    letter-spacing: 2.5pt;
 }
 
 .centered-w-bg .title-lab{
@@ -125,7 +126,7 @@ div#grad {
 }
 
 .section{
-    width: 70%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -228,8 +229,8 @@ h3.small{
 }
 
 p.small-text{
-    font-size: 8pt;
-    line-height: 9.6pt;
+    font-size: 10pt;
+    line-height: 12pt;
 }
 
 div.circle-block{
@@ -247,5 +248,5 @@ div.circle-block{
 }
 
 img.logo{
-    max-width: 65%;
+    max-width: 35%;
 }
